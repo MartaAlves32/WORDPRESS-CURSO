@@ -1,0 +1,264 @@
+/* 
+
+	Arquivo CSS geral com estilos dos elementos de todas páginas 
+
+*/
+
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+      margin: 0;
+      padding: 0;
+      font-size: 62.5%; /* equivalente a 10px */
+  }
+
+   
+  h1 {
+      font-size: 3.8rem;
+      margin-bottom: 1rem;
+  
+  }
+  
+  h2 {
+      font-size: 1.7rem;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding: 0;
+  }
+  
+  form {
+      background: #eee;
+      padding: 10px;
+  }
+  
+  form div {
+      background: #fff;
+      border-bottom: 1px solid #33f;
+      margin: 1rem;
+      padding: 2rem;
+  }
+  
+  label {
+      margin-bottom: 1rem;
+      font-size: 1.4rem; 
+      font-family: sans-serif;
+      font-weight: bold;
+      color: #66F;
+  }
+  
+  input {
+      padding: 1rem;
+      
+  }
+  
+  [type="text"], [type="email"], textarea, label {
+      display: block;
+      width: 30%;
+  }
+  
+  header {
+    background-color: #454545;
+    padding: 22px;
+    text-align: right;
+    font-size: 35px;
+    color: white;
+    width: 100%;
+  }
+  header nav{
+       text-align: right;
+       font-size: 1.6rem;
+       padding: 0;
+  }
+  .pata{
+          padding: 0;
+          padding-right: 0%;
+          padding-left: 1rem;
+          width: 13%;
+          margin-top: 0;
+          margin-left: 0.1rem;
+          margin-bottom: 0%;
+      
+  }
+  H1 {
+      text-align: left;
+  }
+  .slogan {
+      text-align: left;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      color: darkorange;
+      font-family: cursive;
+  }
+  .Frase{
+      text-align: left;
+      margin-top: 2rem;
+      color: darkorange;
+      font-family: cursive;
+  }
+  h4 {
+      font-size: 1.8rem;
+      font-weight: inherit;
+      text-align: left;
+  }
+  
+  .assinante h4{
+      width: 50%;
+      font-size: 2.8rem;
+      font-family: cursive;
+      text-align: right;
+      margin-left: auto;
+      padding-right: 21rem;
+      color: darkorange;
+  }
+  .façaparte{
+      color: darkorange;
+      font-family: cursive;
+  }
+  
+  h3{
+      font-size: 3.0rem;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+  }
+  .dividir{
+      margin-top: 3rem;  
+  }
+  
+  .anuncio h3{
+      width: 35%;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      font-size: 5rem;
+      text-align: center;
+      margin-top: 0%;
+      margin-right: 21rem;
+      margin-left:auto;
+      color: #454545;
+      font-family: cursive;
+      background-color: darkorange;
+      float: auto;
+       
+  }
+  
+  h5{
+      font-size: 1.8rem;
+      margin-bottom: 1.5rem;
+      font-family: monospace ;
+      font-weight: bold;
+  }
+  .assinante h5{
+      width: 55%;
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+      font-family: cursive ;
+      margin-left: auto;
+      font-weight: bold;
+      padding-right: 10rem;
+  }
+  section {
+      width: 100%;
+      height: 100%;
+      background-color: #454545;
+  }
+  .cadastro{
+      width: 50%;
+      margin-left:0;  
+      margin-top: 3rem;  
+      background-color: #454545;
+      float: left;
+      width: 47.9%;
+      padding: 3rem;
+      padding-right:0;
+      font-size: 20px;
+      font-family: cursive;
+  }
+  .cadastro label{
+      font-size: 18px;
+      font-family: cursive;
+      font-weight: bold;
+      color: darkorange;
+      padding-top: .5rem;
+ }     
+  
+  .cadastro h2 {
+      font-size: 20px;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      color: white;
+      padding-top: .5rem;
+      padding-bottom: 3rem;
+  }
+ 
+  .cadastro p {
+    margin-top: 3rem;
+    margin-left: .5rem;
+    margin-bottom: 3rem;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+    color: darkorange;
+    padding-top: .5rem;
+  }
+ 
+  .login label{
+      font-size: 18px;
+      font-family: cursive;
+      font-weight: bold;
+      color: darkorange;
+      padding-top: .5rem;
+  }
+  .login{
+      
+      margin-left:3rem;  
+      margin-top: 3rem;  
+      background-color: #454545;  
+      float: left;
+      width: 50%;
+      padding: 3rem;
+      height: 100%;
+      
+  }
+  .login h2{
+      font-size: 20px;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      color: white;
+      padding-top: .5rem;
+      padding-bottom: 3rem;
+      text-align: center;
+      margin-bottom: 5rem;
+  }
+  .enviar {
+      margin-top: 2rem;
+      margin-left: 22rem;
+      padding-left: 1rem;
+      padding-right: 5rem;
+      margin-right: 18rem;
+  }  
+  .login p{
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #454545;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    line-height: 3rem;
+    margin-top: 13rem;
+    margin-bottom: 3.8rem;
+    background-color: darkorange;
+    border: solid;
+    border-color: white;
+  }
+  .cadastro div input{
+    width: 50%;
+  }
+  .login div input{
+    width: 50%;
+  }
+ .grafico{
+    background-color: darkorange;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+ }   
+ 
