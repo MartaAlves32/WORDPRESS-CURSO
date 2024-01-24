@@ -113,7 +113,6 @@ h6{
     margin-top: 2rem;
     margin-right: auto;
     margin-bottom: 2rem;
-    
   }
 a{
     padding: 0.4rem;
@@ -173,7 +172,6 @@ nav ul{
     padding-right:30px;
     padding-bottom:100px;
     text-align: center;    
-     
  }
  h5{
     width: 50%;
@@ -219,9 +217,7 @@ nav ul{
     padding-top: 5rem;
     margin-left: 8rem;
     text-align: center;
-    font-size: 22px;
-     
-   
+    font-size: 22px; 
  }
  .mensagem2 p{
     padding-left: 5rem;
@@ -288,13 +284,11 @@ nav ul{
     padding-right: 2rem;
     line-height: 2rem;
 }
-
 .abrigos img{
     padding-bottom: 1rem;
     padding-top: 1rem;
     margin-left: 2.5rem;
 }
-
 .rodape {
     margin-top: 0;
     background-color: #454545;
@@ -326,13 +320,6 @@ nav ul{
     font-size: 35px;
     text-align: left;
     float: left;
-}
-    
-     
-   
-    
-   
-    
 }
 .produtos{
     margin-top: 2.45%;
